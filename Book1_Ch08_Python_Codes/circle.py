@@ -9,8 +9,7 @@ def area(radius):
     area：面积
     '''
     
-    area = math.pi * radius**2
-    return area
+    return math.pi * radius**2
 
 def circumference(radius):
     '''
@@ -21,6 +20,5 @@ def circumference(radius):
     circ：周长
     '''
     
-    circ = 2 * math.pi * radius
-    return circ
+    return 2 * math.pi * radius
 
